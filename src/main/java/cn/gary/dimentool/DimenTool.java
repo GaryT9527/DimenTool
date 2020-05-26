@@ -64,12 +64,12 @@ public class DimenTool {
                     xh1280.append(start).append((double) Math.round(num / 2 * 100) / 100).append(end).append("\r\n");
 
                 } else {
-                    m1920.append(tempString);
-                    h1920.append(tempString);
-                    xh1920.append(tempString);
-                    m1280.append(tempString);
-                    h1280.append(tempString);
-                    xh1280.append(tempString);
+                    m1920.append(tempString).append("\r\n");
+                    h1920.append(tempString).append("\r\n");
+                    xh1920.append(tempString).append("\r\n");
+                    m1280.append(tempString).append("\r\n");
+                    h1280.append(tempString).append("\r\n");
+                    xh1280.append(tempString).append("\r\n");
                 }
             }
             reader.close();
